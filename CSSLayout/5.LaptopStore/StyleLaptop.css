@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Corbel, sans-serif;
+}
+
+#container{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 875px;
+    height: 638px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h1 a{
+    color: #00ABEE;
+}
+
+hr{
+    width: 93%;
+    border-color: #000;
+}
+
+#products{
+    float: left;
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 557px;
+    margin-left: 12px;
+    margin-top: 5px;
+    padding: 5px 4px 12px 5px;
+}
+
+#sliders{
+    display: inline-block;
+    font-size: 27px;
+    margin-left: 21px;
+    margin-top: 53px;
+}
+
+#sliders p{
+    margin-bottom: 12px;
+    font-size: 29px;
+}
+
+fieldset{
+    display: inline-block;
+    width: 242px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+fieldset p{
+    font-size: 21px;
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+legend{
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+img{
+    width: 140px;
+    height: 80px;
+    
+}
+
+.img{
+    float: left;
+    margin-left: -8px;
+}
+
+.img p{
+    margin-left: 30px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+input[type=range]{
+    width: 210px;
+}

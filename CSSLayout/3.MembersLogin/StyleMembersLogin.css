@@ -1,0 +1,79 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.container{
+    width: 662px;
+    height: 299px;
+    background-color:rgb(59, 59, 59);
+    border-radius: 7px;
+}
+
+.login{
+    display: inline-flex;
+    border: 1px solid transparent;
+    height: 68px;
+    width: 660px;
+    border-radius: 7px;
+    background-color: #333333;
+}
+
+.login img{
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 14px;
+    width: 52px;
+    height: 52px;
+}
+
+.login p{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+input[type="text"]{
+    margin-top: 18px;
+    width: 149px;
+    margin-right: 23px;
+}
+
+::-webkit-input-placeholder { 
+    color:#000; 
+}
+
+input[type="submit"]{
+    background-image: url("images/go.png");
+    background-color: transparent;
+    width: 56px;
+    height: 28px;
+    background-position: -5px;
+    position: relative;
+    top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+h1{
+    color: #FAD71B;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: -15px;
+    margin-left: 5px;
+    color: #a8a8a8;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+

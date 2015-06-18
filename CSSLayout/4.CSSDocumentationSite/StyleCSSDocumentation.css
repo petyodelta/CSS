@@ -1,0 +1,141 @@
+﻿body {
+    margin-left: 1px;
+    margin-top: 3px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+#container{
+    width: 780px;
+    height: 573px;
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#left{
+    float: left;
+    width: 18%;
+    border: 0;
+}
+
+#right{
+    float: right;
+    width: 18%;
+    border: 0;
+}
+
+#central{
+    display: inline-block;
+    width: 62%;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: white;
+}
+
+h1{
+    font-size: 1.6em;
+}
+
+h2{
+    color: white;
+    background-color: gray;
+    font-size: 1.1em;
+}
+
+#right h2{
+    margin: 0;
+}
+
+img{
+    float: left;
+    margin-left: 2px;
+    margin-right: 3px;
+    margin-top:0;
+}
+
+#left img{
+    margin-top: -4px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 3px;
+    color: #981E1C;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+article a, #right a{
+    color: #981E1C;
+    display:block;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+article:first-of-type p{
+    font-weight: bold;
+}
+
+article:first-of-type a{
+    font-weight: normal;
+}
+
+
+#right div{
+    text-align: center;
+    border: 1px solid gray;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+
+input{
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #7f9db9;
+}
+
+#blue-box{
+    color: #29C8FE;
+    border: 1px solid #3E81B2;
+    width: 85px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding: 7px;
+    background: linear-gradient(to right, rgba(191,233,255,1) 1%,rgba(191,233,255,1) 15%,rgba(229,244,252,1) 50%,rgba(191,233,255,1) 88%,rgba(191,233,255,1) 88%,rgba(191,233,255,1) 100%);
+}
+
+#right button{
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+    border-radius: 5px;
+    border: 1px solid #064077;
+}
+
+#central button{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    font-size: 1em;
+    padding: 1px;
+    text-align: center;
+}

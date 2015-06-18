@@ -1,0 +1,81 @@
+﻿@font-face{
+    font-family: Helvetica Condesed Light;
+    src: url(HelveticaNeueLTCom-LtCn.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   font-family: 'Helvetica Condesed Light';
+   font-size: 14px;
+   margin-top: -20px;
+}
+
+#container{
+    width: 450px;
+    margin: 0;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EEEEEE;
+}
+
+.content{
+    margin-top: 40px;
+    border: 1px solid #ACACAC;
+    padding: 15px;
+    font-family: Arial;
+    background-color: #fff;
+    position: relative;
+}
+
+img{
+    border: 1px solid #ACACAC;
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 100px;
+}
+
+p{
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.add, .listen{
+    background-image: url("images/button.png");
+    background-repeat: repeat-y;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px ridge rgba(138, 0, 0, 0.6);
+}
+
+div.add{
+    float: right;
+    width: 63px;
+    margin-top: -29px;
+}
+
+div.listen{
+    
+    float: right;
+    width: 77px;
+    margin-top: -29px;
+    margin-right: 70px;
+}

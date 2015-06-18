@@ -1,0 +1,235 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body{
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.calculator{
+    width: 450px;
+    background-image: url("images/body_background.jpg");
+    background-repeat: repeat-x;
+    background-color: #b2d2f2;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+nav{
+    background-image: url("images/nav_background.jpg");
+    background-repeat: repeat-x;
+    border-bottom: solid 1px #c1c5d1;
+    line-height: 20px;
+    padding-left: 5px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 6px;
+}
+
+.firstLetter{
+    text-decoration: underline;
+}
+
+h1:before {
+    display: inline-block;
+    content: "";
+    width: 14px;
+    height: 19px;
+    background-image: url("images/calculator.jpg");
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+h1 {
+    vertical-align: bottom;
+    font-size: 15px;
+    display: inline;
+}
+
+.winButtons{
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 11px;
+    left: 357px;
+}
+
+.winButtons li{
+    float: left;
+}
+
+.winButtons button {
+    border: none;
+    height: 22px;
+}    
+
+#minimize{
+    background-image: url("images/minimize.gif");
+    width: 31px;
+}
+
+#maximize {
+    background-image: url("images/maximize.gif");
+    width: 28px;
+}
+
+#exit {
+    background-image: url("images/close.gif");
+    width: 53px;
+}
+
+.container{
+    border: 2px solid #8e9baa;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.display{
+    line-height: 50px;
+    border: 1px solid #8e9baa;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333630;
+    background-image: linear-gradient(to bottom, #EDF4FE 0%, #FFFFFF 100%);
+}
+
+.content{
+    background-image: url("images/main_background.jpg");
+    background-repeat: repeat-x;
+    background-color: #D9E4F1;
+    padding: 13px 13px 13px 9px;
+}
+
+.binaryTable{
+    width: 100%;
+}
+
+.binary{
+    border: 1px solid #9CA9B9;
+    box-shadow: inset 0 0 1px 1px #fff;
+    border-radius: 3px;
+}
+
+.binaryTable td{
+    font-size: 12px;
+    padding: 3px;
+}
+
+.right-position{
+    text-align: right;
+    position: relative;
+    right: 21px;
+}
+
+.binaryTable tr:nth-child(2n+1){
+    color: #5F6E96;
+}
+
+.binaryTable tr:nth-child(2n){
+    color: #A99B8B;
+}
+
+.operationTable{
+    margin-top: 10px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td button{
+    width: 100%;
+    height: 30px;
+    vertical-align: top;
+    border: 1px solid #8f9eaf;
+    box-shadow: inset 0 0 1px 1px #fff;
+    border-radius: 3px;
+    color: #193457;
+}
+
+td{
+    padding-bottom: 4px;
+    padding-right: 4px;
+    vertical-align: top;
+}
+
+td ul{
+    border: 1px solid #8f9eaf;
+    border-radius: 3px;
+    color: #193457;
+    font-size: 13px;
+    padding: 4px;
+}
+
+td li{
+    line-height: 1.6;
+}
+
+button.functionButton{
+    background-color: transparent;
+}
+
+button.button{
+    background: linear-gradient(to bottom,  #ecf2f8 0%,#ecf2f8 49%,#d6e1ef 100%);
+}
+
+td button:hover{
+    border: 1px solid #EDD950;
+    box-shadow: inset 0 0 1px 1px #fff;
+    background: linear-gradient(to bottom,  #feefe0 0%,#feefe0 49%,#fbcf72 50%,#fcf5b3 100%);
+}
+
+td button[disabled="disabled"]{
+    background: transparent;
+    cursor: default;
+    border: solid 1px #999;
+    box-shadow: none;
+}
+
+#equal{
+    height: 64px;
+}

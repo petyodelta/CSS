@@ -1,0 +1,41 @@
+﻿body{
+	background-color: grey;
+	color: white;
+	font-family: Arial;
+    font-size: 16px;
+}
+
+th{
+    font-size: 1.5em;
+	text-align: left;
+	color: lightgrey;
+}
+
+.field{
+	font-style: italic;
+}
+
+.greyText{
+	color: lightgrey;
+}
+
+#redText{
+	color: red;
+}
+
+#orangeText{
+	color: orange;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+div {
+    width: 12px;
+    height: 12px;
+    background: #4cff00;
+    border-radius: 50%;
+    display: inline-block;
+}
